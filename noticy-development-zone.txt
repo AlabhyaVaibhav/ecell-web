@@ -1,0 +1,1 @@
+Noticy will be a portable extension for managing notices. 
