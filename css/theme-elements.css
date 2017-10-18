@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*
 Name: 			theme-elements.css
@@ -4382,6 +4383,7 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 
 /* Thumb Info */
 .thumb-info {
+	
 	display: block;
 	position: relative;
 	text-decoration: none;
@@ -4397,6 +4399,63 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 	-moz-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
+
+/** custom css for noticeboard cards **/
+
+.noticeboard-thumb-info
+{
+
+	top:-30px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	height: 100px;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	max-width: 100%;
+	background-color: #5c6bc0;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+
+}
+
+span.noticeboard-social-icons 
+{
+	color:#5c6bc0;
+	font-size:20px;
+}
+
+
+
+p.noticeboard-title
+{
+	font-size:26px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin-top: 6px;
+}
+
+p.noticeboard-date
+{
+	font-size:16px;
+	color:white;
+}
+
+.portfolio-item a
+{
+	color:#5c6bc0;
+	text-decoration: none;
+}
+
+/** ---------------------------  **/
 
 .thumb-info .thumb-info-wrapper {
 	-webkit-backface-visibility: hidden;
@@ -4948,7 +5007,8 @@ section.timeline .timeline-title .timeline-title-tags a {
 
 section.timeline .timeline-box {
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
-	border: 1px solid #E5E5E5;
+	/*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+*/	border: 1px solid #E5E5E5;
 	border-radius: 4px;
 	margin: 20px 10px 10px 10px;
 	padding: 10px;
@@ -4960,6 +5020,12 @@ section.timeline .timeline-box {
 	background: #FFF;
 }
 
+section.timeline .timeline-box:hover
+{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+
 section.timeline .timeline-box.left {
 	clear: both;
 }
@@ -4967,7 +5033,8 @@ section.timeline .timeline-box.left {
 section.timeline .timeline-box.left:before {
 	background: none repeat scroll 0 0 #E5E5E5;
 	border-radius: 50%;
-	box-shadow: 0 0 0 3px #FFF, 0 0 0 6px #E5E5E5;
+	/*box-shadow: 0 0 0 3px #FFF, 0 0 0 6px #E5E5E5;*/
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	content: "";
 	display: block;
 	height: 7px;
@@ -5007,7 +5074,8 @@ section.timeline .timeline-box.right {
 section.timeline .timeline-box.right:before {
 	background: none repeat scroll 0 0 #E5E5E5;
 	border-radius: 50%;
-	box-shadow: 0 0 0 3px #FFF, 0 0 0 6px #E5E5E5;
+	/*box-shadow: 0 0 0 3px #FFF, 0 0 0 6px #E5E5E5;*/
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	content: "";
 	display: block;
 	height: 7px;
